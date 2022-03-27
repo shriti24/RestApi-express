@@ -7,7 +7,7 @@ function App() {
   const { width } = useWindowSize();
 
   return (
-    <div style={{ backgroundColor: `#FFF0F5`, textAlign: 'center' }}>
+    <div style={{ backgroundColor: `#FFF0F5`, textAlign: 'center', height: '100vh' }}>
       {width > 500 ? (
         <div className="App">
           <AppBar position="static" className="Appbar">
