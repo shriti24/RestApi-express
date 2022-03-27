@@ -22,13 +22,11 @@ const FlightsTable = (props: reqType) => {
   useEffect(() => {
     const fromDt = format(departureDate, 'yyyy-MM-dd').toString();
     const toDt = format(returnDate, 'yyyy-MM-dd').toString();
-    console.log(fromDt, toDt);
     fetch(
       `/promotions/priceoffers/flights/ond/${origin}/${destination}?departureDate=${fromDt}&returnDate=${toDt}`
     )
       .then((res) => res.json())
       .then((details) => {
-        console.log(details);
         setData(details);
       })
       .catch((e) => {
@@ -65,7 +63,7 @@ const FlightsTable = (props: reqType) => {
           <div className="inner_body_row">
             <div className="inner_row">
               <div className="no-data">
-                <p>The flight with the given dates are not avialable </p>
+                <p>The flight with the given dates are not available </p>
               </div>
             </div>
           </div>
@@ -76,7 +74,7 @@ const FlightsTable = (props: reqType) => {
 
   return (
     <React.Fragment>
-      <Table>
+      <Table data-testid="table">
         <div className="inner_table_head">{_innerHeader()}</div>
         <div className="inner_table_body">{_innerRow()}</div>
       </Table>

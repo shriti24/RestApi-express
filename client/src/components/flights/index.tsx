@@ -21,7 +21,6 @@ const Flights = () => {
   });
 
   const handleFilter = () => {
-    console.log(origin, dest);
     setFiterData({
       origin: origin,
       destination: dest,
@@ -63,7 +62,12 @@ const Flights = () => {
             onChange={(date: any) => setRetDate(date)}
             renderInput={(params: any) => <TextField {...params} />}
           />
-          <ArrowRightIcon onClick={handleFilter} color="primary" fontSize="large" />
+          <ArrowRightIcon
+            onClick={handleFilter}
+            color="primary"
+            data-testid="submit"
+            fontSize="large"
+          />
         </div>
         <FlightsTable {...fiterData} />
       </Container>
