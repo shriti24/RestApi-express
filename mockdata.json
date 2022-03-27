@@ -1,0 +1,136 @@
+{
+  "data":
+  [
+    {
+      "origin": "FRA",
+      "destination": "FCO",
+      "departureDate": "2022-03-27",
+      "returnDate": "2022-03-30",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 128.26,
+        "currency": "EUR"
+      },
+      "offerType":
+        "BestPrice",
+      "uuid": "SA00003-b790715d-b2b8-4d23-ac27-d4e88c0e84af"
+    },
+    {
+      "origin": "LON",
+      "destination": "DUB",
+      "departureDate": "2022-03-27",
+      "returnDate": "2022-03-30",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 127.26,
+        "currency": "EUR"
+      },
+      "offerType":
+        "BestPrice",
+      "uuid": "SA00003-b790715d-b2b8-4d23-ac27-d4e88c0e84bf"
+    },
+    {
+      "origin": "FRA",
+      "destination": "DEL",
+      "departureDate": "2022-03-27",
+      "returnDate": "2022-03-30",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 138.26,
+        "currency": "EUR"
+      },
+      "offerType":
+        "BestPrice",
+      "uuid": "SA00003-b790715d-b2b8-4d23-ac27-d4e88c0e84cf"
+    },
+    {
+      "origin": "FRA",
+      "destination": "ROM",
+      "departureDate": "2022-03-27",
+      "returnDate": "2022-03-30",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 148.26,
+        "currency": "EUR"
+      },
+      "offerType":
+        "BestPrice",
+      "uuid": "SA00003-b790715d-b2b8-4d23-ac27-d4e88c0e84adf"
+    },
+     {
+      "origin": "FRA",
+      "destination": "LON",
+      "departureDate": "2022-03-27",
+      "returnDate": "2022-03-30",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 128.26,
+        "currency": "EUR"
+      },
+      "offerType":
+        "BestPrice",
+      "uuid": "SA00003-b790715d-b2b8-4d23-ac27-d4e88c0e84af"
+    },
+     {
+      "origin": "FRA",
+      "destination": "DEL",
+      "departureDate": "2022-03-27",
+      "returnDate": "2022-03-30",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 128.26,
+        "currency": "EUR"
+      },
+      "offerType":
+        "BestPrice",
+      "uuid": "SA00003-b790715d-b2b8-4d23-ac27-d4e88c0e84af"
+    },
+     {
+      "origin": "DEL",
+      "destination": "FCO",
+      "departureDate": "2022-03-27",
+      "returnDate": "2022-03-30",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 128.26,
+        "currency": "EUR"
+      },
+      "offerType":
+        "BestPrice",
+      "uuid": "SA00003-b790715d-b2b8-4d23-ac27-d4e88c0e84af"
+    },
+     {
+      "origin": "DEL",
+      "destination": "LON",
+      "departureDate": "2022-03-27",
+      "returnDate": "2022-03-30",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 128.26,
+        "currency": "EUR"
+      },
+      "offerType":
+        "BestPrice",
+      "uuid": "SA00003-b790715d-b2b8-4d23-ac27-d4e88c0e84af"
+    },
+     {
+      "origin": "DEL",
+      "destination": "ROM",
+      "departureDate": "2022-03-27",
+      "returnDate": "2022-03-30",
+      "seatAvailability": 7,
+      "price": {
+        "amount": 128.26,
+        "currency": "EUR"
+      },
+      "offerType":
+        "BestPrice",
+      "uuid": "SA00003-b790715d-b2b8-4d23-ac27-d4e88c0e84af"
+    }
+  ]
+
+}
+
+
+
+
